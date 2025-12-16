@@ -1,0 +1,26 @@
+name: "Reviewer Suggester"
+description: "Suggest reviewers based on recent file commit history"
+inputs:
+  github_token:
+    required: true
+  max_reviewers:
+    required: false
+    default: "3"
+  lookback_days:
+    required: false
+    default: "90"
+  max_files:
+    required: false
+    default: "50"
+  use_codeowners:
+    required: false
+    default: "true"
+  use_latency:
+    required: false
+    default: "true"
+  latency_prs:
+    required: false
+    default: "20"
+runs:
+  using: "node20"
+  main: "dist/index.js"
