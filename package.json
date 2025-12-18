@@ -1,5 +1,5 @@
 {
-  "name": "reviewer-suggester",
+  "name": "suggest-reviewer",
   "private": true,
   "version": "0.0.1",
   "type": "commonjs",

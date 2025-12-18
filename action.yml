@@ -1,4 +1,4 @@
-name: "Reviewer Suggester"
+name: "Suggest Review"
 description: "Suggest reviewers based on recent file commit history"
 inputs:
   github_token:

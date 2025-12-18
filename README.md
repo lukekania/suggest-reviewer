@@ -1,4 +1,4 @@
-# Reviewer Suggester
+# Suggest Reviewer
 
 Reviewer Suggester is a GitHub Action that automatically suggests reviewers for pull requests based on real repository signals, not guesses.
 
@@ -58,7 +58,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Suggest reviewers
-        uses: lukekania/reviewer-suggester@v0.1.0
+        uses: lukekania/suggest-reviewer@v0.1.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 ```
